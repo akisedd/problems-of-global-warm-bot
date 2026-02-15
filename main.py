@@ -44,8 +44,9 @@ def send_recycling_fact(message):
 
 @bot.message_handler(commands=['solution'])
 def send_recycling_fact(message):
-    fact = random_solution()
+    solution = random_solution()
     bot.send_message(message.chat.id, solution)
+    
 # Запуск бота
 if __name__ == "__main__":
     print("Бот запущен...")
