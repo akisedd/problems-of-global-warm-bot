@@ -17,6 +17,21 @@ def random_fact():
     ]
     
     return random.choice(sorting_facts)
+    
+def random_solution():
+    solutions = [
+        "Сокращение использования ископаемого топлива: Отказ от угля, нефти и газа, переход на солнечную и ветровую энергию."
+        "Переход на чистый транспорт: Использование общественного транспорта, велосипедов, электромобилей."
+        "Энергоэффективность: Выключение электроприборов, установка энергосберегающих ламп."
+        "Снижение потребления: Покупка товаров местного производства, использование многоразовых сумок и упаковки."
+        "Сортировка и переработка: Сдача мусора на переработку."
+        "Посадка деревьев: Увеличение зеленых насаждений для поглощения."
+        "Образование: Распространение информации об изменении климата."
+        "Инвестиции: Поддержка экологичных проектов и компаний, отказывающихся от углеродных отраслей."
+    ]
+    
+    return random.choice(solutions)
+
 
 @bot.message_handler(commands=['start'])
 def send_welcome(message):
@@ -27,6 +42,10 @@ def send_recycling_fact(message):
     fact = random_fact()
     bot.send_message(message.chat.id, fact)
 
+@bot.message_handler(commands=['solution'])
+def send_recycling_fact(message):
+    fact = random_solution()
+    bot.send_message(message.chat.id, solution)
 # Запуск бота
 if __name__ == "__main__":
     print("Бот запущен...")
