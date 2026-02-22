@@ -1,7 +1,7 @@
 import telebot
 import random
 
-API_TOKEN = 'YOUR_API_TOKEN'
+API_TOKEN = '8567136443:AAFTa7QYBVpu_dcqKR8j8fsdvwa_l-1eB8E'
 bot = telebot.TeleBot(API_TOKEN)
 
 # Словарь для хранения статистики пользователей
@@ -51,6 +51,17 @@ def send_welcome(message):
     init_user_stats(user_id)
     bot.reply_to(message, "Привет! Напиши команду /fact чтобы увидеть рандомный факт о глобальном потеплении!\nИспользуй /solution чтобы узнать, как помочь планете!")
 
+@bot.message_handler(commands=['help'])
+def help_command(message):
+    help_text = (
+        "🤖 **Доступные команды:**\n\n"
+        "/fact - случайный факт о климате\n"
+        "/solution - способы помочь планете\n"
+        "/mystats - твоя статистика\n"
+        "/challenges - эко-задания\n"
+        "/done - отметить выполнение задания\n\n"
+    )
+    bot.send_message(message.chat.id, help_text)
 @bot.message_handler(commands=['fact'])
 def send_fact(message):
     user_id = message.from_user.id
