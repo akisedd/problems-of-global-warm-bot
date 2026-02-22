@@ -1,7 +1,7 @@
 import telebot
 import random
 
-API_TOKEN = '8567136443:AAFTa7QYBVpu_dcqKR8j8fsdvwa_l-1eB8E'
+API_TOKEN = 'YOUR_API_TOKEN'
 bot = telebot.TeleBot(API_TOKEN)
 
 # Словарь для хранения статистики пользователей
