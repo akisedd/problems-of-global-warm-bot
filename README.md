@@ -20,7 +20,7 @@ Telegram-бот, который делится интересными факта
 - Python 3.x
 - Библиотека [pyTelegramBotAPI] (telebot)
 
-                                                       СКРИНШОТЫ
+                                                            СКРИНШОТЫ
 <img width="465" height="236" alt="image" src="https://github.com/user-attachments/assets/2b7a57f7-3590-42ea-92f2-9681ea097785" />
 <img width="630" height="212" alt="image" src="https://github.com/user-attachments/assets/e3d5518a-1770-42f5-8fa9-2e570e19e3a0" />
 <img width="625" height="223" alt="image" src="https://github.com/user-attachments/assets/83553996-5ffe-4bdc-b7a9-50381501a1f4" />
