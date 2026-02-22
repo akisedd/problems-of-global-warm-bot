@@ -15,3 +15,13 @@
 
 - Python 3.x
 - Библиотека [pyTelegramBotAPI] (telebot)
+
+
+<img width="490" height="477" alt="image" src="https://github.com/user-attachments/assets/31e57994-ad80-4fee-9c57-06d84a38e518" />
+<img width="630" height="212" alt="image" src="https://github.com/user-attachments/assets/e3d5518a-1770-42f5-8fa9-2e570e19e3a0" />
+<img width="625" height="223" alt="image" src="https://github.com/user-attachments/assets/83553996-5ffe-4bdc-b7a9-50381501a1f4" />
+<img width="632" height="236" alt="image" src="https://github.com/user-attachments/assets/79b5038d-53a1-4e1a-a934-deb571f8eb58" />
+<img width="405" height="199" alt="image" src="https://github.com/user-attachments/assets/65b92db7-bb5b-4b7c-8da7-de67ddad8754" />
+
+<img width="472" height="613" alt="image" src="https://github.com/user-attachments/assets/a0170e52-e9c8-419a-b8c3-3947c6281289" />
+<img width="466" height="677" alt="image" src="https://github.com/user-attachments/assets/80f62d36-9b73-4a54-b497-fe8d795fa257" />
