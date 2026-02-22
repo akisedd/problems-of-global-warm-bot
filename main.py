@@ -1,7 +1,7 @@
 import telebot
 import random
 
-API_TOKEN = 'YOUR API TOKEN'
+API_TOKEN = 'YOUR_API_TOKEN'
 bot = telebot.TeleBot(API_TOKEN)
 
 # Словарь для хранения статистики пользователей
@@ -136,6 +136,22 @@ def mark_done(message):
     user_stats[user_id]["challenges_done"] = user_stats[user_id].get("challenges_done", 0) + 1
     bot.send_message(message.chat.id, "✅ Задание выполнено! Спасибо за вклад в борьбу с глобальным потеплением!")
 
+@bot.message_handler(commands=['dice'])
+def send_dice(message):
+    """Отправляет анимированный кубик"""
+    bot.send_dice(message.chat.id, emoji='🎲')
+    
+@bot.message_handler(commands=['thanks'])
+def thank_planet(message):
+    thank_you_messages = [
+        "🙏 Спасибо, что заботишься о планете!",
+        "🌱 Твой каждый маленький шаг важен!",
+        "💚 Планета благодарит тебя!",
+        "🌟 Ты настоящий эко-герой!",
+        "🌍 Земля гордится тобой!"
+    ]
+    
+    bot.send_message(message.chat.id, random.choice(thank_you_messages))
 
 # Запуск бота
 if __name__ == '__main__':
