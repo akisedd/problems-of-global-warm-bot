@@ -27,5 +27,4 @@ Telegram-бот, который делится интересными факта
 <img width="632" height="236" alt="image" src="https://github.com/user-attachments/assets/79b5038d-53a1-4e1a-a934-deb571f8eb58" />
 <img width="405" height="199" alt="image" src="https://github.com/user-attachments/assets/65b92db7-bb5b-4b7c-8da7-de67ddad8754" />
 
-<img width="472" height="613" alt="image" src="https://github.com/user-attachments/assets/a0170e52-e9c8-419a-b8c3-3947c6281289" />
-<img width="466" height="677" alt="image" src="https://github.com/user-attachments/assets/80f62d36-9b73-4a54-b497-fe8d795fa257" />
+<img width="463" height="624" alt="image" src="https://github.com/user-attachments/assets/c106ee94-bbad-440d-8452-2b5172064306" />
