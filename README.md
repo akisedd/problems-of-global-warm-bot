@@ -1,4 +1,4 @@
-# EcoFact Bot 🌍                                                          Mikhail Rochev
+# EcoFact Bot 🌍                                   -                       Mikhail Rochev
 
 
 Telegram-бот, который делится интересными фактами о глобальном потеплении и экологии.
