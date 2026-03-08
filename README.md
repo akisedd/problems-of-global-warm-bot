@@ -29,3 +29,8 @@ Telegram-бот, который делится интересными факта
 <img width="405" height="199" alt="image" src="https://github.com/user-attachments/assets/65b92db7-bb5b-4b7c-8da7-de67ddad8754" />
 
 <img width="463" height="624" alt="image" src="https://github.com/user-attachments/assets/c106ee94-bbad-440d-8452-2b5172064306" />
+
+
+## Пример
+
+https://t.me/EcoFact_bot
