@@ -34,3 +34,8 @@ Telegram-бот, который делится интересными факта
 ## Пример
 
 https://t.me/EcoFact_bot
+
+## Обратная связь
+
+https://t.me/rochmish
+
