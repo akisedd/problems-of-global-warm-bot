@@ -25,7 +25,8 @@ Telegram-бот, который делится интересными факта
   EcoFact Bot — это не просто сборник интересных фактов, а ваш персональный проводник в мир экологичного образа жизни. В современном мире проблема глобального потепления становится всё более острой, и мой проект нацелен на то, чтобы превратить сложную научную информацию в простые, понятные и запоминающиеся сообщения.
 
                                                                 
-<img width="463" height="624" alt="image" src="https://github.com/user-attachments/assets/c106ee94-bbad-440d-8452-2b5172064306" /> <img width="519" height="181" alt="image" src="https://github.com/user-attachments/assets/c1f6bf39-45a7-4258-81e2-2b7c6e8970c7" />
+<img width="463" height="624" alt="image" src="https://github.com/user-attachments/assets/c106ee94-bbad-440d-8452-2b5172064306" /> <img width="519" height="181" alt="image" src="https://github.com/user-attachments/assets/c1f6bf39-45a7-4258-81e2-2b7c6e8970c7" /> <img width="627" height="124" alt="image" src="https://github.com/user-attachments/assets/8c2b3d26-49ef-47b7-9358-e447dfc9d634" />
+
 
 
 
